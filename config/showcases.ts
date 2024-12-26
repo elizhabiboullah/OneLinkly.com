@@ -10,14 +10,14 @@ export const showcases = [
   {
     // title: 'Landing Page Boilerplate',
     // description: 'A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.',
-    url: 'https://onelinkly.com/dashboard/,
+    url: 'https://onelinkly.com/dashboard/',
     // logo: '',
-    // og: 'https://onelinkly.com/'
+    // og: 'https://landingpage.weijunext.com/og.png'
   },
   {
-    url: 'https://onelinkly.com/dashboard/'
+    url: 'https://PHCopilot.ai/'
   },
   {
-    url: 'https://onelinkly.com/dashboard/'
+    url: 'https://regeai.com/'
   },
 ].concat(ENV_SHOWCASE_LIST)
