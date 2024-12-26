@@ -1,13 +1,13 @@
 export const FAQS_EN = [
   {
-    title: "What is Lin.ks?",
+    title: "What is OneLinkly🔗",
     content: 
-      "Lin.ks is a comprehensive link management platform that allows you to create a customizable landing page for all your important links. Unlike traditional link lists, Lin.ks provides advanced customization options, built-in analytics, and professional branding features to help you create a powerful online presence that represents your personal or business brand.",
+      "OneLinkly🔗 is a comprehensive link management platform that allows you to create a customizable landing page for all your important links. Unlike traditional link lists, Lin.ks provides advanced customization options, built-in analytics, and professional branding features to help you create a powerful online presence that represents your personal or business brand.",
   },
   {
-    title: "How does Lin.ks differ from other link management tools?",
+    title: "How does OneLinkly🔗 differ from other link management tools?",
     content:
-      "Lin.ks stands out with its combination of powerful features including custom domain support, detailed analytics, professional themes, and complete brand customization. Lin.ks offers superior performance, security, and reliability compared to traditional link management platforms.",
+      "OneLinkly🔗 stands out with its combination of powerful features including custom domain support, detailed analytics, professional themes, and complete brand customization. Lin.ks offers superior performance, security, and reliability compared to traditional link management platforms.",
   },
   {
     title: "What analytics features do you offer?",
@@ -15,7 +15,7 @@ export const FAQS_EN = [
       "Our analytics dashboard provides comprehensive insights including link click tracking, visitor demographics, device types, geographic locations, and engagement patterns. Free users get access to basic analytics, while Pro users receive advanced metrics and detailed visitor behavior analysis to help optimize their online presence.",
   },
   {
-    title: "Can I customize the appearance of my Lin.ks page?",
+    title: "Can I customize the appearance of my OneLinkly🔗 page?",
     content:
       "Absolutely! You can fully customize your page with your brand colors, logo, and preferred layout. Choose from our professional theme collection or create your own custom design. Pro users get access to premium themes and can remove Lin.ks branding for a completely personalized experience.",
   },

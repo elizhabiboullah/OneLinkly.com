@@ -6,20 +6,20 @@ import { FaLinkedin } from "react-icons/fa6";
 import { GrStripe } from "react-icons/gr";
 
 
-const OPEN_SOURCE_URL = 'https://onelinkly.com'
+const OPEN_SOURCE_URL = 'https://onelinkly.com/dashboard/'
 
 const baseSiteConfig = {
-  name: "Links",
+  name: "OneLinkly",
   description:
-    "Create Beautiful Fully Customizable Links & Forms With Built-in Analytics and Actionable Insights. Everything you need to build your online presence in one place. in minutes.",
+    "Create Beautiful Fully Customizable Links, Smart Forms, Redirect Links and More...",
   url: "https://onelinkly.com/dashboard/",
   ogImage: "https://onelinkly.com/dashboard/",
   metadataBase: '/',
   keywords: ["Get Started Free", " page template", "awesome link in bio", "page maker"],
   authors: [
     {
-      name: "Lin.ks 🔗",
-      url: "https://onelinkly.com/",
+      name: "OneLinkly🔗",
+      url: "https://onelinkly.com/dashboard/",
       twitter: 'https://twitter.com/elizhabiboullah',
     }
   ],

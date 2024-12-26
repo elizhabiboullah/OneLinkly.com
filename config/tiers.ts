@@ -23,7 +23,7 @@ export const TIERS_EN: Array<Tier> = [
   {
     key: TiersEnum.Customize,
     title: "Pro Plan",
-    href: siteConfig.authors[0].twitter || "#",
+    href: "https://onelinkly.com/dashboard/upgrade" || "#",
     description: "For creators, professionals, and businesses needing advanced features.",
     price: "$5",
     features: [
@@ -36,7 +36,7 @@ export const TIERS_EN: Array<Tier> = [
       "Priority Support",
       "and Many More...",
     ],
-    buttonText: "Contact us",
+    buttonText: "Subscribe",
     buttonColor: "primary",
     buttonVariant: "solid",
   },

@@ -2,34 +2,34 @@
 export const LOGOS = [
   {
     name: "Next.js",
-    image: "/images/techStack/nextjs.svg",
+    image: "/images/techStack/nextjs.png",
   },
   {
     name: "React",
-    image: "/images/techStack/react.svg",
+    image: "/images/techStack/react.png",
   },
   {
     name: "Tailwind",
-    image: "/images/techStack/tailwind.svg",
+    image: "/images/techStack/tailwind.png",
   },
   {
     name: "Framer",
-    image: "/images/techStack/framer.svg",
+    image: "/images/techStack/framer.png",
   },
   {
     name: "Shadcnui",
-    image: "/images/techStack/shadcnui.svg",
+    image: "/images/techStack/shadcnui.png",
   },
   {
     name: "Nextui",
-    image: "/images/techStack/nextui.svg",
+    image: "/images/techStack/nextui.png",
   },
   {
     name: "TS",
-    image: "/images/techStack/typescript.svg",
+    image: "/images/techStack/typescript.png",
   },
   {
     name: "Vercel",
-    image: "/images/techStack/vercel.svg",
+    image: "/images/techStack/vercel.png",
   },
 ];
