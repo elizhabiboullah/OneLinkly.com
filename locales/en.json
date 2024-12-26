@@ -1,0 +1,47 @@
+{
+  "Hero": {
+    "title1": "One",
+    "title2": "Link, Endless",
+    "title3": "Possibilities",
+    "description": "Create Beautiful Fully Customizable Links & Forms With Built-in Analytics and Actionable Insights. Everything you need to build your online presence in one place. in minutes."
+  },
+  "SocialProof": {
+    "maker": "100 makers use Links"
+  },
+  "Showcase": {
+    "title": "Showcase",
+    "description": "Join 1000+ Makers Boosting Conversions with Lin.ks"
+  },
+  "Feature": {
+    "title": "Features"
+  },
+  "Pricing": {
+    "title": "Pricing",
+    "title2": "Get unlimited access.",
+    "description": "Build your digital empire in minutes: Custom links, powerful forms, and real-time analytics – all in one stunning page. (and more...)",
+    "doYouLike": "Do you like Lin.ks",
+    "follow": "Tell us"
+  },
+  "Testimonials": {
+    "title": "Testimonials",
+    "description1": "What are others saying about us and recommending us on X",
+    "description2": "Please let me know what you think",
+    "description3": ". and We will display your tweet and recommendation here."
+  },
+  "FAQ": {
+    "title": "FAQs",
+    "description": "Here are some of the most frequently asked questions."
+  },
+  "CTA": {
+    "title": "Build Your Link Page Now",
+    "description1": "Build",
+    "description2": "your own Link page,",
+    "description3": "share it",
+    "description4": "with your audience, and",
+    "description5": "gain insights",
+    "description6": "!"
+  },
+  "CTAButton": {
+    "title": "Get Links"
+  }
+}
