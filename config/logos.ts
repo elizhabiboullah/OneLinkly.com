@@ -32,4 +32,12 @@ export const LOGOS = [
     name: "Vercel",
     image: "/images/techStack/vercel.png",
   },
+  {
+    name: "ml",
+    image: "/images/techStack/ml.png",
+  },
+  {
+    name: "ai",
+    image: "/images/techStack/ai.png",
+  },
 ];
