@@ -37,6 +37,14 @@ export const LOGOS = [
     image: "/images/techStack/ml.png",
   },
   {
+    name: "ts",
+    image: "/images/techStack/ts.png",
+  },
+  {
+    name: "js",
+    image: "/images/techStack/js.png",
+  },
+  {
     name: "ai",
     image: "/images/techStack/ai.png",
   },
