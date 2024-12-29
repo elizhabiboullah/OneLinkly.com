@@ -21,6 +21,14 @@ export const LOGOS = [
     image: "/images/techStack/shadcnui.png",
   },
   {
+    name: "ml",
+    image: "/images/techStack/ml.png",
+  },
+  {
+    name: "ts",
+    image: "/images/techStack/ts.png",
+  },
+  {
     name: "Nextui",
     image: "/images/techStack/nextui.png",
   },
@@ -31,14 +39,6 @@ export const LOGOS = [
   {
     name: "Vercel",
     image: "/images/techStack/vercel.png",
-  },
-  {
-    name: "ml",
-    image: "/images/techStack/ml.png",
-  },
-  {
-    name: "ts",
-    image: "/images/techStack/ts.png",
   },
   {
     name: "js",
