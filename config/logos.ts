@@ -44,8 +44,4 @@ export const LOGOS = [
     name: "js",
     image: "/images/techStack/js.png",
   },
-  {
-    name: "ai",
-    image: "/images/techStack/ai.png",
-  },
 ];
