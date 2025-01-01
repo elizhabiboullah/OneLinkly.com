@@ -39,12 +39,12 @@ const baseSiteConfig = {
   headerLinks: [
     { name: 'Sign in', href: "https://onelinkly.com/auth/sign-in", icon: BsFillBrushFill },
     { name: 'Sign up', href: "https://onelinkly.com/auth/sign-up", icon: BsCircleFill },
-    { name: 'Mail', href: "https://mailto:elizhabiboullah@gmail.com", icon: MdEmail }
+    { name: 'Mail', href: "https://mailto:team@onelinkly.com", icon: MdEmail }
   ],
   
   footerLinks: [
     { name: 'email', href: "mailto:elizhabiboullah@gmail.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/elizhabiboullah", icon: BsTwitterX },
+    { name: 'twitter', href: "https://twitter.com/onelinkly", icon: BsTwitterX },
     { name: 'github', href: "https://onelinkly.com/", icon: BsGithub },
     { name: 'Subscribe', href: "http://onelinkly.com/dashboard/upgrade", icon: GrStripe },
     { name: 'linkedin', href: "https://www.linkedin.com/in/elizhabiboullah/", icon: FaLinkedin }
