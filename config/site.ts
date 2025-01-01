@@ -20,7 +20,7 @@ const baseSiteConfig = {
     {
       name: "OneLinkly🔗",
       url: "https://onelinkly.com/dashboard/",
-      twitter: 'https://twitter.com/elizhabiboullah',
+      twitter: 'https://twitter.com/onelinkly',
     }
   ],
   creator: '@lin.ks',
