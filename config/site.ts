@@ -13,7 +13,7 @@ const baseSiteConfig = {
   description:
     "Create Beautiful Fully Customizable Links, Smart Forms, Redirect Links and More...",
   url: "https://onelinkly.com/dashboard/",
-  ogImage: "https://onelinkly.com/dashboard/",
+  ogImage: "https://onelinkly.com/onelinkly.png",
   metadataBase: '/',
   keywords: ["Get Started Free", " page template", "awesome link in bio", "page maker"],
   authors: [
