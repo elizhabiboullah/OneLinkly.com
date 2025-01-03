@@ -58,7 +58,7 @@ export const siteConfig: SiteConfig = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: baseSiteConfig.url,
+    url: "https://onelinkly.com",
     title: baseSiteConfig.name,
     images: ["https://onelinkly.com/onelinkly.png"],
     description: baseSiteConfig.description,
