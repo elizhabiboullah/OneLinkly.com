@@ -12,18 +12,18 @@ const baseSiteConfig = {
   name: "OneLinkly",
   description:
     "Create Beautiful Fully Customizable Links, Smart Forms, Redirect Links and More...",
-  url: "https://onelinkly.com",
+  url: "https://onelinkly.com/dashboard/",
   ogImage: "https://onelinkly.com/onelinkly.png",
-  metadataBase: new URL('https://onelinkly.com'),
+  metadataBase: '/',
   keywords: ["Get Started Free", " page template", "awesome link in bio", "page maker"],
   authors: [
     {
       name: "OneLinkly🔗",
-      url: "https://onelinkly.com",
-      twitter: '@onelinkly',
+      url: "https://onelinkly.com/dashboard/",
+      twitter: 'https://twitter.com/onelinkly',
     }
   ],
-  creator: '@onelinkly',
+  creator: '@lin.ks',
   openSourceURL: 'https://onelinkly.com/dashboard/',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
@@ -60,23 +60,16 @@ export const siteConfig: SiteConfig = {
     locale: "en_US",
     url: baseSiteConfig.url,
     title: baseSiteConfig.name,
-    images: [
-      {
-        url: '/onelinkly.png',
-        width: 1200,
-        height: 630,
-        alt: baseSiteConfig.name,
-      }
-    ],
+    images: [`${baseSiteConfig.url}/onelinkly.png`],
     description: baseSiteConfig.description,
     siteName: baseSiteConfig.name,
   },
   twitter: {
     card: "summary_large_image",
-    site: '@onelinkly',
+    site: baseSiteConfig.url,
     title: baseSiteConfig.name,
     description: baseSiteConfig.description,
-    images: ['/onelinkly.png'],
-    creator: '@onelinkly',
+    images: [`${baseSiteConfig.url}/onelinkly.png`],
+    creator: baseSiteConfig.creator,
   },
 }

@@ -26,28 +26,8 @@ export const metadata = {
   creator: siteConfig.creator,
   icons: siteConfig.icons,
   metadataBase: siteConfig.metadataBase,
-  openGraph: {
-    ...siteConfig.openGraph,
-    type: 'website',
-    locale: 'en_US',
-    url: siteConfig.url,
-    siteName: siteConfig.name,
-    images: [
-      {
-        url: siteConfig.ogImage,
-        width: 1200,
-        height: 630,
-        alt: siteConfig.name,
-      },
-    ],
-  },
-  twitter: {
-    ...siteConfig.twitter,
-    card: 'summary_large_image',
-    site: siteConfig.authors[0].twitter,
-    creator: siteConfig.authors[0].twitter,
-    images: [siteConfig.ogImage],
-  },
+  openGraph: siteConfig.openGraph,
+  twitter: siteConfig.twitter,
 };
 export const viewport: Viewport = {
   themeColor: siteConfig.themeColors,
