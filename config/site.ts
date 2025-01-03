@@ -14,7 +14,7 @@ const baseSiteConfig = {
     "Create Beautiful Fully Customizable Links, Smart Forms, Redirect Links and More...",
   url: "https://onelinkly.com/dashboard/",
   ogImage: "https://onelinkly.com/onelinkly.png",
-  metadataBase: new URL("https://onelinkly.com"),
+  metadataBase: '/',
   keywords: ["Get Started Free", " page template", "awesome link in bio", "page maker"],
   authors: [
     {
@@ -58,18 +58,18 @@ export const siteConfig: SiteConfig = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://onelinkly.com",
+    url: baseSiteConfig.url,
     title: baseSiteConfig.name,
-    images: ["https://onelinkly.com/onelinkly.png"],
+    images: [`${baseSiteConfig.url}/onelinkly.png`],
     description: baseSiteConfig.description,
     siteName: baseSiteConfig.name,
   },
   twitter: {
     card: "summary_large_image",
-    site: "@onelinkly",
+    site: baseSiteConfig.url,
     title: baseSiteConfig.name,
     description: baseSiteConfig.description,
-    images: ["https://onelinkly.com/onelinkly.png"],
-    creator: "@onelinkly",
+    images: [`${baseSiteConfig.url}/onelinkly.png`],
+    creator: baseSiteConfig.creator,
   },
 }
