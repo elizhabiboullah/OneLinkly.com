@@ -55,6 +55,9 @@ const baseSiteConfig = {
 
 export const siteConfig: SiteConfig = {
   ...baseSiteConfig,
+  url: 'https://onelinkly.com',
+  ogImage: 'https://onelinkly.com/onelinkly.com',
+  metadataBase: new URL('https://onelinkly.com'),
   openGraph: {
     type: "website",
     locale: "en_US",
