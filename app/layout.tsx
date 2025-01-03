@@ -25,17 +25,16 @@ export const metadata = {
   authors: siteConfig.authors,
   creator: siteConfig.creator,
   icons: siteConfig.icons,
-  metadataBase: new URL('https://onelinkly.com'), // This needs to be a URL object
+  metadataBase: siteConfig.metadataBase,
   openGraph: {
+    ...siteConfig.openGraph,
     type: 'website',
     locale: 'en_US',
-    url: 'https://onelinkly.com',
-    title: siteConfig.name,
-    description: siteConfig.description,
+    url: siteConfig.url,
     siteName: siteConfig.name,
     images: [
       {
-        url: '/onelinkly.png', // Path relative to your public folder
+        url: siteConfig.ogImage,
         width: 1200,
         height: 630,
         alt: siteConfig.name,
@@ -43,12 +42,11 @@ export const metadata = {
     ],
   },
   twitter: {
+    ...siteConfig.twitter,
     card: 'summary_large_image',
-    title: siteConfig.name,
-    description: siteConfig.description,
-    site: '@onelinkly',
-    creator: '@onelinkly',
-    images: ['/onelinkly.png'], // Path relative to your public folder
+    site: siteConfig.authors[0].twitter,
+    creator: siteConfig.authors[0].twitter,
+    images: [siteConfig.ogImage],
   },
 };
 export const viewport: Viewport = {
