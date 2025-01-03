@@ -25,9 +25,31 @@ export const metadata = {
   authors: siteConfig.authors,
   creator: siteConfig.creator,
   icons: siteConfig.icons,
-  metadataBase: siteConfig.metadataBase,
-  openGraph: siteConfig.openGraph,
-  twitter: siteConfig.twitter,
+  metadataBase: new URL('https://onelinkly.com'), // This needs to be a URL object
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://onelinkly.com',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    siteName: siteConfig.name,
+    images: [
+      {
+        url: '/onelinkly.png', // Path relative to your public folder
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    site: '@onelinkly',
+    creator: '@onelinkly',
+    images: ['/onelinkly.png'], // Path relative to your public folder
+  },
 };
 export const viewport: Viewport = {
   themeColor: siteConfig.themeColors,
