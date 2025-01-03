@@ -18,7 +18,7 @@ export type ThemeColor = {
   media: string
   color: string
 }
-export type SiteConfig = {
+export interface SiteConfig {
   name: string
   description: string
   url: string
@@ -43,16 +43,16 @@ export type SiteConfig = {
     locale: string
     url: string
     title: string
+    images: string[]
     description: string
     siteName: string
-    images?: string[]
   },
   twitter: {
     card: string
     site: string
     title: string
     description: string
-    images?: string[]
+    images: string[]
     creator: string
   },
 }
