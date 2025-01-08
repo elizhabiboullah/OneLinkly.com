@@ -45,7 +45,7 @@ const baseSiteConfig = {
   footerLinks: [
     { name: 'email', href: "mailto:elizhabiboullah@gmail.com", icon: MdEmail },
     { name: 'twitter', href: "https://twitter.com/onelinkly", icon: BsTwitterX },
-    { name: 'github', href: "https://onelinkly.com/", icon: BsGithub },
+    { name: 'github', href: "https://github.com/elizhabiboullah", icon: BsGithub },
     { name: 'Subscribe', href: "http://onelinkly.com/dashboard/upgrade", icon: GrStripe },
     { name: 'linkedin', href: "https://www.linkedin.com/in/elizhabiboullah/", icon: FaLinkedin }
   ],
