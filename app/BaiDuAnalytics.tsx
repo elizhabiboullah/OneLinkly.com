@@ -1,7 +1,7 @@
 "use client";
 
 import Script from "next/script";
-
+// Update tsconfig.json
 const BaiDuAnalytics = () => {
   return (
     <>
