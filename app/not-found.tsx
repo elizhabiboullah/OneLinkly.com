@@ -1,3 +1,5 @@
+// ../config/site needs to be edited
+
 import FollowButton from "@/components/FollowButton";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
