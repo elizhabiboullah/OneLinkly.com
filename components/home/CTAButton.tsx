@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { RocketIcon } from "lucide-react";
 import Link from "next/link";
+//import { usePathname } from 'next/navigation'
 
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
