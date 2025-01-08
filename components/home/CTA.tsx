@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import CTAButton from "@/components/home/CTAButton";
 import { RoughNotation } from "react-rough-notation";
+//import Header from './Header'
 
 const CTA = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
   return (
