@@ -8,7 +8,8 @@ export const localeNames: any = {
 export const defaultLocale = "en";
 
 // If you wish to automatically redirect users to a URL that matches their browser's language setting,
-// you can use the `getLocale` to get the browser's language.
+// you can use the `getLocale` to get the browser's language (Next 13)
+
 export function getLocale(headers: any): string {
   let languages = new Negotiator({ headers }).languages();
 
